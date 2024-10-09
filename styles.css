@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.profile{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+.pic{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 40px;
+    margin-bottom: 15px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    margin:10px;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+}
+.job{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    text-align: center;
+    padding: 10px 90px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
